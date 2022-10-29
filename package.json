@@ -1,6 +1,6 @@
 {
   "name": "@gasbuddy/coconfig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Default Node.js configuration files for GasBuddy projects",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -12,7 +12,7 @@
     "lint": "eslint src",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
-    "postinstall": "husky install && ts-node src/bin/cli.ts",
+    "postinstall": "husky install && yarn dlx coconfig",
     "inception": "yarn dlx coconfig"
   },
   "engines": {
@@ -37,7 +37,6 @@
     "eslint-config-gasbuddy": "^7.0.3",
     "husky": "^8.0.1",
     "jest": "^29.2.2",
-    "jest-openapi": "^0.14.2",
     "lint-staged": "^13.0.3",
     "pinst": "^3.0.0",
     "ts-jest": "^29.0.3",
