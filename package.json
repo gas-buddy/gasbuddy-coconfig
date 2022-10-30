@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gas-buddy/coconfig.git"
+    "url": "git+https://github.com/gas-buddy/gasbuddy-coconfig.git"
   },
   "keywords": [
     "typescript",
