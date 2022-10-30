@@ -14,6 +14,6 @@ const config: CoConfig = {
   'jest.config.js': { configuration: jestConfig },
   '.prettierrc.js': { configuration: prettierConfig },
   '.eslintrc.js': { configuration: eslintRc },
-};
+} as const;
 
 export default config;
