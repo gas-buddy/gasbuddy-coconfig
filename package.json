@@ -1,6 +1,6 @@
 {
   "name": "@gasbuddy/coconfig",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Default Node.js configuration files for GasBuddy projects",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -15,7 +15,6 @@
     "postinstall": "husky install && yarn dlx coconfig",
     "inception": "coconfig"
   },
-  "bin": "coconfig",
   "engines": {
     "node": ">12.0.0"
   },
