@@ -1,6 +1,6 @@
 {
   "name": "@gasbuddy/coconfig",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Default Node.js configuration files for GasBuddy projects",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -46,6 +46,6 @@
   },
   "packageManager": "yarn@3.2.4",
   "dependencies": {
-    "coconfig": "^0.5.2"
+    "coconfig": "^0.5.3"
   }
 }
