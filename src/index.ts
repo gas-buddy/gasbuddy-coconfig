@@ -9,8 +9,8 @@ import { eslintRc } from './eslint';
 interface GbCoConfig {
   '.eslintignore': string,
   '.npmignore': string,
-  'tsconfig.json': CoConfigPassthroughEntry,
-  'tsconfig.build.json': CoConfigPassthroughEntry,
+  'tsconfig.json': CoConfigPassthroughEntry<typeof tsconfig>,
+  'tsconfig.build.json': CoConfigPassthroughEntry<typeof tsconfigBuild>,
   'jest.config.js': CoConfigPassthroughEntry,
   '.prettierrc.js': CoConfigPassthroughEntry,
   '.eslintrc.js': CoConfigPassthroughEntry,
