@@ -446,7 +446,7 @@ __metadata:
   resolution: "@gasbuddy/coconfig@workspace:."
   dependencies:
     "@types/jest": ^29.2.0
-    coconfig: ^0.5.3
+    coconfig: ^0.6.0
     eslint: ^8.26.0
     eslint-config-gasbuddy: ^7.0.3
     husky: ^8.0.1
@@ -1707,9 +1707,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coconfig@npm:^0.5.3":
-  version: 0.5.3
-  resolution: "coconfig@npm:0.5.3"
+"coconfig@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "coconfig@npm:0.6.0"
   dependencies:
     dotgitignore: ^2.1.0
     find-up: ^4.1.0
@@ -1721,7 +1721,7 @@ __metadata:
       optional: true
   bin:
     coconfig: build/bin/cli.js
-  checksum: 29e8bf3e5fb2b475376b2e028401696c39e946355b7e52b03a32e611a083adb95d8f10215798180703426ceba0ed0efea18f8da047987a8981fc069b6b04fba8
+  checksum: 7888f4b37b6b7b57caa4bb7e73031077da5d37d75f411d4b4919a92cb096a0e373059d891a1da5aa84506a0b60d1228b8d572602c9d0c2fe2aa39adde4e8c7a7
   languageName: node
   linkType: hard
 
