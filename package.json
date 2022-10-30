@@ -1,6 +1,6 @@
 {
   "name": "@gasbuddy/coconfig",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Default Node.js configuration files for GasBuddy projects",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -15,8 +15,9 @@
     "postinstall": "husky install && yarn dlx coconfig",
     "inception": "yarn dlx coconfig"
   },
+  "bin": "coconfig",
   "engines": {
-    "node": ">18.0.0"
+    "node": ">12.0.0"
   },
   "author": "GasBuddy Developers <developers@gasbuddy.com>",
   "license": "MIT",
@@ -43,5 +44,8 @@
     "ts-node": "^10.9.1",
     "typescript": "^4.8.4"
   },
-  "packageManager": "yarn@3.2.4"
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "coconfig": "^0.5.1"
+  }
 }
