@@ -1,6 +1,6 @@
 {
   "name": "@gasbuddy/coconfig",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Default Node.js configuration files for GasBuddy projects",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -13,7 +13,7 @@
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "postinstall": "husky install && yarn dlx coconfig",
-    "inception": "yarn dlx coconfig"
+    "inception": "coconfig"
   },
   "bin": "coconfig",
   "engines": {
@@ -46,6 +46,6 @@
   },
   "packageManager": "yarn@3.2.4",
   "dependencies": {
-    "coconfig": "^0.5.1"
+    "coconfig": "^0.5.2"
   }
 }
