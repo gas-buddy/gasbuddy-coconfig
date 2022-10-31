@@ -447,7 +447,7 @@ __metadata:
   dependencies:
     "@types/jest": ^29.2.0
     "@types/node": ^18.11.8
-    coconfig: ^0.9.0
+    coconfig: ^0.9.1
     eslint: ^8.26.0
     eslint-config-gasbuddy: ^7.0.3
     husky: ^8.0.1
@@ -1715,9 +1715,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"coconfig@npm:^0.9.0":
-  version: 0.9.0
-  resolution: "coconfig@npm:0.9.0"
+"coconfig@npm:^0.9.1":
+  version: 0.9.1
+  resolution: "coconfig@npm:0.9.1"
   dependencies:
     dotgitignore: ^2.1.0
     find-up: ^4.1.0
@@ -1729,7 +1729,7 @@ __metadata:
       optional: true
   bin:
     coconfig: build/bin/cli.js
-  checksum: 81a3b488278511e5955f07b1d83d94b6459e27b7a926b9d197502236114b6ee861999a313d044042f3923068f5fc0181f1872a20a86ce9d4236aea4bdc60c96c
+  checksum: b7171007554169e8800af087839cb167888ba3682faac377934fb19b598d925b6607a7928163ac295a35048c633c1a3f2349643aaa144a6082375eb9726f719c
   languageName: node
   linkType: hard
 
