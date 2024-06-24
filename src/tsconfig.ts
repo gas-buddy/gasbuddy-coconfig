@@ -7,7 +7,7 @@ export const tsconfig = {
   },
   compilerOptions: {
     lib: ['ES2022', 'DOM'],
-    module: 'CommonJS',
+    module: 'Node16',
     target: 'ES2022',
     declaration: true,
     sourceMap: true,
@@ -20,6 +20,7 @@ export const tsconfig = {
     allowSyntheticDefaultImports: true,
     esModuleInterop: true,
     experimentalDecorators: true,
+    skipLibCheck: true,
   },
 };
 
